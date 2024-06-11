@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="practica_a.css">
+</head>
+<body>
+    <!--header -->
+    <header>
+        <div class="divpadre">
+            <!--nav -->
+            <nav>
+                <div class="divsote">
+                    <div class="divsillo">
+                        <a href="registro.html">registro</a>
+                    </div>
+                    <div class="divsillo">
+                        <a href="Secion.html">secion</a>
+                        <br>
+                        <br>
+                    </div>
+                    <div class="divsillo">
+                        <a href="precios.html">precios</a>
+                    </div>
+                </div>
+            </nav>
+            
+        </div>
+    </header>
+    <!--header -->
+            
+    <br>
+    <!-- section-->
+    <div class="contenedor2" style="display: flex;">
+        <section>
+            <div class="div-gris">
+                    <form class="form">
+                        <label class="label" for="nombre">Nombre de usuario:</label>
+                        <input class="input-field" type="text" id="nombre" name="nombre" required>
+
+                        <label class="label" for="email">Email:</label>
+                        <input class="input-field" type="email" id="email" name="email" required>
+
+                        <label class="label" for="password">Contraseña:</label>
+                        <input class="input-field" type="password" id="password" name="password" required>
+
+                        <label class="label" for="confirm-password">Confirmar contraseña:</label>
+                        <input class="input-field" type="password" id="confirm-password" name="confirm-password" required>
+
+                        <label class="label" for="localtime">Hora local:</label>
+                        <input class="input-field" type="time" id="localtime" name="localtime">
+
+                        <label class="label" for="edad">Edad:</label>
+                        <input class="input-field" type="number" id="edad" name="edad" min="18" max="100" required>
+
+                        <label class="label" for="telefono">Teléfono:</label>
+                        <input class="input-field" type="tel" id="telefono" name="telefono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+
+                        <label class="label" for="fecha-nacimiento">Fecha de Nacimiento:</label>
+                        <input class="input-field" type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+
+                        <label class="label" for="genero">Género:</label>
+                        <select class="input-field" id="genero" name="genero" required>
+                            <option value="masculino">Masculino</option>
+                            <option value="femenino">Femenino</option>
+                            <option value="otro">Otro</option>
+                        </select>
+
+                        <label class="label" for="suscripcion">Suscribirse al boletín:</label>
+                        <input class="input-field" type="checkbox" id="suscripcion" name="suscripcion">
+
+                        <label class="label" for="comentarios">Comentarios:</label>
+                        <textarea class="input-field" id="comentarios" name="comentarios"></textarea>
+                        <label for="file">Seleccionar archivo:</label>
+                        <input type="file" id="file" name="file">
+
+                        <button class="button" type="submit">Enviar</button>
+                        <a href="practica_a.html">Volver al inicio</a>
+                        <a href="Secion.html">¿Deseas iniciar sesión?</a>
+                </form> 
+            </div>
+        </section>
+    </div>
+    <aside>
+            <div class="div-verde">
+                <div class="item-gris">
+                    <h2>Sesión del Comité Olímpico Internacional (COI) en Lima, el 31 de julio de 2017, Los Ángeles —una de las dos ciudades candidatas restantes— llegó a un acuerdo con el COI para celebrar los Juegos de 2028,1​ dejando vía libre a París para albergar el evento en 2024. Esta será la segunda ciudad (junto a Londres) en albergar tres veces los Juegos Olímpicos, tras 1900 y 1924, además estos Juegos Olímpicos marcarán el centenario de los últimos llevados a cabo en tierra parisina.</h2>
+                </div>
+            </div>
+    </aside>
+    <footer class="futersillo">
+        <nav class="navsillo">
+        </nav>
+    </footer>
+</body>
+</html>
